@@ -1,0 +1,44 @@
+.mapContainer {
+  width: 100wh; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  display: flex; /* Use flexbox for alignment */
+}
+
+.geography {
+  fill: #007bff; /* Default fill color for geography */
+  transition: fill 0.3s; /* Smooth transition for hover effects */
+}
+
+.geography:hover {
+  fill: #FF5733; /* Change color on hover */
+}
+
+.infoPanel {
+  position: absolute; /* Allow it to be positioned relative to mapContainer */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  background-color: rgba(205, 223, 220, 0.8); /* Semi-transparent background */
+  padding: 10px; /* Some padding for aesthetics */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  z-index: 10; /* Ensure it's above other elements */
+}
+
+.infoPanel h3 {
+  margin: 0; /* Remove default margin */
+  font-size: 1.2rem; /* Larger font size */
+  color: black;
+  font-weight: bold;
+}
+
+.infoPanel p {
+  margin: 0; /* Remove default margin */
+  font-size: 1rem; /* Slightly smaller font size */
+  color: black;
+}
+
+.divider {
+  height: 1px;
+  background-color: black;
+  margin: 10px 0;
+}
