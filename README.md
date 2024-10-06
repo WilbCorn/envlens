@@ -29,7 +29,7 @@ The "Forum" feature allows users to share observations, experiences, and solutio
 ## Conclusion
 EnvLens serves as both a data hub and a catalyst for environmental stewardship. By providing actionable insights through the utilization of Landsat data, EnvLens inspires immediate, localized action and fosters a culture of awareness and advocacy.
 
-##Sample
+## Sample
 https://github.com/user-attachments/assets/c247e6fd-7548-4bd4-84f1-2df59691dac7
 
 
